@@ -2,6 +2,7 @@ package learning.collections;
 
 import learning.collections.beans.Library_Map;
 import learning.collections.beans.Library_List;
+import learning.collections.beans.Library_MapList;
 import learning.collections.beans.Library_Set;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -15,5 +16,7 @@ public class FirstCollectionsRun {
         bookSet.display_books();
         Library_Map bookMap = (Library_Map)context.getBean("library_map");
         bookMap.display_books();
+        Library_MapList bookMapList = (Library_MapList)context.getBean("library_maplist");
+        bookMapList.display_books();
     }
 }

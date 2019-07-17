@@ -1,12 +1,22 @@
 package learning.collections.beans;
 
 import java.util.Objects;
+import java.util.Properties;
 
 public class Book {
     private String isbn;
     private String book_name;
     private int price;
     private String publication;
+    private Properties props;
+
+    public Properties getProps() {
+        return props;
+    }
+
+    public void setProps(Properties props) {
+        this.props = props;
+    }
 
     public Book() {
         isbn = "310IND";
@@ -69,6 +79,10 @@ public class Book {
 
     @Override
     public String toString() {
-        return book_name + "\t" + isbn + "\t" + price + "\t" + publication;
+        if(props != null) {
+            return book_name + "\t" + isbn + "\t" + price + "\t" + publication + " with properites " + props;
+        } else {
+            return book_name + "\t" + isbn + "\t" + price + "\t" + publication ;
+        }
     }
 }
