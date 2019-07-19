@@ -1,5 +1,6 @@
-package cdi_jbos;
+package cdi_jbos.qualifier;
 
+import cdi_jbos.TimeLogger;
 import cdi_jbos.interfaces.ImageFileEditor;
 import cdi_jbos.interfaces.JpgFileEditorQualifier;
 

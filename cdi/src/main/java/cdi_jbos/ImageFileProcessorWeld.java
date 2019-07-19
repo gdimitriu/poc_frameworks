@@ -1,6 +1,7 @@
 package cdi_jbos;
 
 import cdi_jbos.named.ImageFileProcessorNamed;
+import cdi_jbos.qualifier.ImageFileProcessorQualified;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
