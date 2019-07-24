@@ -4,49 +4,59 @@
     <list default="true" id="f452e897-77d4-40ba-983c-cce0991925fb" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/factoryPatern/BalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/factoryPatern/BlanceSheetRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/factoryPatern/ExportDataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/factoryPatern/FetchDataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/BalanceSheetConstructorInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/BalanceSheetSetterInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/ConstructorInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/SetterInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/interfaceInjection/BalanceSheetInterfaceInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/interfaceInjection/BalanceSheetInterfaceInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/injection/interfaceInjection/IFetchAndExport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/BalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/BlanceSheetRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/ExportHtml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/ExportPDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/FetchDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/FetchWebService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/IExportData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cdi/src/main/java/diJava9/withInterfaces/IFetchData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javalin/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javalin/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javalin/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javalin/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javalin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/AnnotationConfigurationRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/config/MyConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/springEL/CustomerELRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/springEL/beans/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/learning/springEL/beans/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scope.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/springEL_customer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_annotations_autowire.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring_annotations_stereotype.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cdi/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cdi/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cdi/src/main/java/cdi_jbos/ImageFileProcessorQualified.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cdi/src/main/java/cdi_jbos/qualifier/ImageFileProcessorQualified.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cdi/src/main/java/cdi_jbos/ImageFileProcessorWeld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cdi/src/main/java/cdi_jbos/ImageFileProcessorWeld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/books.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/Car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/Car/CarRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/AutoWiringRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/HRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/autowiring/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/constructor_injection/Camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/constructor_injection/ConstructorInjectionRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/constructor_injection/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/constructor_injection/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/AnootationRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/AnootationRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/DIFactoryRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/SubjectRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/XmlBaseRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/withanotation/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/FactoryInjectionRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/SalaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/factory_injection/SearchacleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/setter_injection/DocFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/setter_injection/DocumentBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/setter_injection/SetterInjectionRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ConstructorInjection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SetterInjection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autowiring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di_annotation_beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di_annotation_beans_qualified.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di_annotation_factory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di_annotation_xmlbase.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/factory_injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/first_car.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,11 +67,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Professor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/SubjectRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,53 +142,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/beans_lifecyle.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycleInitializing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/AllLifeCycleFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/beans_lifecycle.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/AllLifeCyleRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/CarDependencyInjectionNamespaceRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/CarDependencyInjectionRun.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/dependency_injection.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/inheritance/beans/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/inheritance/beans/EnggStudent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/inheritance/InheritanceStudentRun.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/inheritance.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_List.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_Set.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_hash.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_Hash.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_MapList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/FirstCollectionsRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/collections/beans/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/books.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/scope.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/scope/CarScopeRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/scope/beans/Car.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/beans/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/annotations.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/ComponentRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/StereotypeRun.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/annotations_autowire.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/stereotype/Customer_Component.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/AutowireRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/autowire/Customer_Autowire.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/ScopeRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/annotations/autowire/Customer_Scope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/spring_annotations/autowire/Customer_Scope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/AllLifeCycle.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/AnnotationConfigurationRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/config/MyConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/spring_annotations/autowire/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springEL/beans/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springEL/beans/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springEL/CustomerELRun.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/springEL_customer.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/constructor_injection/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/constructor_injection/EmployeeConstructorInjectionRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/constructor_injection/Camera.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/ConstructorInjection.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/constructor_injection/ConstructorInjectionRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/setter_injection/DocFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/setter_injection/SetterInjectionRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/setter_injection/DocumentBase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SetterInjection.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/SearchacleFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/Developer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/SalaryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/factory_injection/FactoryInjectionRun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/factory_injection.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/HRService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/ExamService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/autowiring/AutoWiringRun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/autowiring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/withanotation/XmlBaseRun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/di_annotation_xmlbase.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/withanotation/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/XmlBaseRun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/di_annotation_beans.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/AnootationRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/AnootationRun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/di_annotation_beans_qualified.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Developer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/SalaryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/DIFactoryRun.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/di_annotation_factory.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/JavaSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/SubjectRun.java" />
       </list>
     </option>
   </component>
@@ -133,9 +203,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="43" />
-    <option name="y" value="17" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="336" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -153,11 +223,6 @@
             <path>
               <item name="spring" type="58d84e3e:PackageViewProjectNode" />
               <item name="spring" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="spring" type="58d84e3e:PackageViewProjectNode" />
-              <item name="spring" type="616d4139:PackageViewModuleNode" />
-              <item name="learning" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -268,13 +333,26 @@
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="di_annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="di_annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,21 +363,22 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java9on/modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\resources" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="learning.springEL.beans" />
       <recent name="learning.jsr_annotations.config" />
       <recent name="learning.annotations.autowire" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\resources" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\lifecycle" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="learning.jsr_annotations.beans" />
@@ -308,10 +387,12 @@
       <recent name="learning.annotations.autowire" />
       <recent name="learning.scope.beans" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\my-git\poc_frameworks\spring\src\main\resources" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\di_annotation\beans\qualified" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\di_annotation\beans" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\di_annotation" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\di_annotation\xmlbase\withanotation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,13 +407,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomerELRun">
-    <configuration name="AnnotationConfigurationRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.jsr_annotations.AnnotationConfigurationRun" />
+  <component name="RunManager" selected="Application.SubjectRun">
+    <configuration name="AnootationRun (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.di_annotation.beans.qualified.AnootationRun" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.jsr_annotations.*" />
+          <option name="PATTERN" value="learning.di_annotation.beans.qualified.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,12 +421,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutowireRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring_annotations.AutowireRun" />
+    <configuration name="AnootationRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.di_annotation.beans.AnootationRun" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring_annotations.*" />
+          <option name="PATTERN" value="learning.di_annotation.beans.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,12 +434,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerELRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.springEL.CustomerELRun" />
+    <configuration name="DIFactoryRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.di_annotation.factory.DIFactoryRun" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.springEL.*" />
+          <option name="PATTERN" value="learning.di_annotation.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,12 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring_annotations.ScopeRun" />
+    <configuration name="SubjectRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.di_annotation.fullJava.SubjectRun" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring_annotations.*" />
+          <option name="PATTERN" value="learning.di_annotation.fullJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +460,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StereotypeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring_annotations.StereotypeRun" />
+    <configuration name="XmlBaseRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.di_annotation.xmlbase.XmlBaseRun" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring_annotations.*" />
+          <option name="PATTERN" value="learning.di_annotation.xmlbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -394,11 +475,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomerELRun" />
-        <item itemvalue="Application.AnnotationConfigurationRun" />
-        <item itemvalue="Application.ScopeRun" />
-        <item itemvalue="Application.AutowireRun" />
-        <item itemvalue="Application.StereotypeRun" />
+        <item itemvalue="Application.SubjectRun" />
+        <item itemvalue="Application.DIFactoryRun" />
+        <item itemvalue="Application.AnootationRun (1)" />
+        <item itemvalue="Application.AnootationRun" />
+        <item itemvalue="Application.XmlBaseRun" />
       </list>
     </recent_temporary>
   </component>
@@ -440,8 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="17" width="1400" height="1000" extended-state="1" />
-    <editor active="true" />
+    <frame x="336" y="24" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -456,7 +536,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.35063437" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3091119" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3091119" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -477,438 +557,505 @@
     <option name="LAST_COMMIT_MESSAGE" value="added spring xml configuration and annotations" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/AllLifeCycleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/AllLifeCyleRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="11" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/CarDependencyInjectionNamespaceRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/CarDependencyInjectionRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inheritance.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/inheritance/InheritanceStudentRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/beans_lifecycle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dependency_injection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/FirstCollectionsRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/Library_MapList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/CountryProperties.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/collections/beans/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/scope.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="81" lean-forward="true" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/scope/CarScopeRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/annotations/autowire.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_annotations_stereotype.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/StereotypeRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/stereotype/Customer_Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/beans/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring_annotations_autowire.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/AutowireRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/ScopeRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="156" selection-start-line="26" selection-start-column="156" selection-end-line="26" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/AllLifeCycle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/jsr_annotations/AnnotationConfigurationRun.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/constructor_injection/EmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+          <caret line="11" column="69" lean-forward="true" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/jsr_annotations/config/MyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/jsr_annotations/beans/Address.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/constructor_injection/ConstructorInjectionRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/books.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/constructor_injection/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/setter_injection/DocFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/setter_injection/DocumentBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/setter_injection/SetterInjectionRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SetterInjection.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="11" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/inheritance/beans/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/SearchacleFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/inheritance/beans/EnggStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="68" column="52" lean-forward="true" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycleInitializing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/scope/beans/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/autowire/Customer_Autowire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/spring_annotations/autowire/Customer_Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springEL/beans/Address.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springEL/beans/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/Developer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#133#134#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springEL/CustomerELRun.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/SalaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/factory_injection/FactoryInjectionRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springEL_customer.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/factory_injection.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
+        <state relative-caret-position="238">
+          <caret line="14" column="89" lean-forward="true" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ConstructorInjection.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/ExamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/AutoWiringRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/HRService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/autowiring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/withanotation/XmlBaseRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/withanotation/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/xmlbase/XmlBaseRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/di_annotation_xmlbase.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/AnootationRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/beans/qualified/AnootationRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="102" selection-start-line="7" selection-start-column="102" selection-end-line="7" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/Developer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/SalaryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/DIFactoryRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/di_annotation_beans_qualified.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/di_annotation_beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="13" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/di_annotation_factory.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/JavaSpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/SubjectRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
