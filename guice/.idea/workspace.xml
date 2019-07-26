@@ -2,30 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87abace2-ea9c-484f-aebb-26b7a9c05007" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/SMSDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/SMSProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/AppConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/AppConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/ApplicationModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSDatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/serviceprovider/NotificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/serviceprovider/SMSProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/serviceprovider/ServiceConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModuleMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cdi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cdi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/vcs.xml" beforeDir="false" />
@@ -50,64 +32,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/SMSService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/SMSDatabase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="106" lean-forward="true" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
-              <folding>
-                <element signature="e#532#716#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#867#993#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/AppConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/NotificationClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="68" lean-forward="true" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/ApplicationModule.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="612">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,27 +53,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModule.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="15" column="143" selection-start-line="15" selection-start-column="143" selection-end-line="15" selection-end-column="143" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-              </folding>
+              <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSDatabaseConnection.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModuleMultiple.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +79,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -181,17 +113,21 @@
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/SMSService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/AppConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/SMSDatabase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSService.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/SMSDatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/NotificationClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor/ApplicationModule.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/SMS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/EMAIL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModuleMultiple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="358" />
-    <option name="y" value="13" />
+    <option name="x" value="287" />
+    <option name="y" value="10" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -203,102 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_injection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_injection" type="462c0819:PsiDirectoryNode" />
-              <item name="constructor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_injection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guice_learning" type="462c0819:PsiDirectoryNode" />
-              <item name="basic_injection" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
@@ -361,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/constructor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -514,8 +355,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="358" y="13" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="287" y="10" width="1400" height="1000" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -526,11 +366,11 @@
       <window_info id="Structure" order="1" sideWeight="0.5009597" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.3298731" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50074625" side_tool="true" weight="0.3298731" />
       <window_info anchor="bottom" id="Messages" weight="0.3298731" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -544,18 +384,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -740,28 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-          <folding>
-            <element signature="e#297#448#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,13 +591,6 @@
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/AppConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -812,19 +615,6 @@
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
-          <folding>
-            <element signature="e#532#716#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#867#993#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -873,6 +663,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="113" selection-start-line="5" selection-start-column="113" selection-end-line="5" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/AppConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/annotations/named/NotificationClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" lean-forward="true" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/ApplicationModuleMultiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.2.2/guice-4.2.2.jar!/com/google/inject/name/Named.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/SMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/EMAIL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guice_learning/basic_injection/NotificationClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

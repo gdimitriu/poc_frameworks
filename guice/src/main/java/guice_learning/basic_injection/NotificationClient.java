@@ -3,6 +3,7 @@ package guice_learning.basic_injection;
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
+import com.google.inject.name.Named;
 
 public class NotificationClient {
 
@@ -34,6 +35,13 @@ public class NotificationClient {
 		});
 		app = injector.getInstance(AppConsumer.class);
 		app.sendNotification("Hello", "9896666");
+/* this doesn't work ...
+		injector = Guice.createInjector(new ApplicationModuleMultiple());
+		app = injector.getInstance(@Named("sms") AppConsumer.class);
+		app.sendNotification("Hello", "9666");
+		app = injector.getInstance(@Named("email") AppConsumer.class);
+		app.sendNotification("Hello", "9666");
+ */
 	}
 
 }
