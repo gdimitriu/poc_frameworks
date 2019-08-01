@@ -2,65 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="471b1fd8-1d12-414a-87c6-1a9d1cdfc4a8" name="Default Changelist" comment="dependency injection">
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../poc_frameworks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/Car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/Car/CarRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/AutoWiringRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/ExamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/HRService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/autowiring/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/constructor_injection/Camera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/constructor_injection/ConstructorInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/constructor_injection/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/constructor_injection/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/AnootationRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/qualified/AnootationRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/qualified/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/beans/qualified/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/DIFactoryRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/factory/SalaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/fullJava/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/fullJava/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/fullJava/SubjectRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/xmlbase/Professor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/xmlbase/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/xmlbase/XmlBaseRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/di_annotation/xmlbase/withanotation/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/FactoryInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/SalaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/factory_injection/SearchacleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/setter_injection/DocFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/setter_injection/DocumentBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/java/learning/setter_injection/SetterInjectionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/ConstructorInjection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/SetterInjection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/autowiring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/di_annotation_beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/di_annotation_beans_qualified.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/di_annotation_factory.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/di_annotation_xmlbase.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/factory_injection.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring/src/main/resources/first_car.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guice/src/main/java/guice_learning/basic_injection/ApplicationModuleMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../guice/src/main/java/guice_learning/basic_injection/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../guice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guice/src/main/java/guice_learning/basic_injection/NotificationClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guice/src/main/java/guice_learning/basic_injection/NotificationClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_guice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learning_guice/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,7 +31,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
+            <state relative-caret-position="153">
               <caret line="9" selection-start-line="9" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
@@ -149,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="249" />
     <option name="y" value="48" />
     <option name="width" value="1400" />
@@ -390,7 +342,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="249" y="48" width="1400" height="1000" extended-state="1" />
+    <frame x="249" y="48" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
@@ -402,7 +354,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -806,7 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
+        <state relative-caret-position="153">
           <caret line="9" selection-start-line="9" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
