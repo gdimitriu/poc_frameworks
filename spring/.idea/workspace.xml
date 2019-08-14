@@ -2,27 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f452e897-77d4-40ba-983c-cce0991925fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/beans/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO_JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MainBookDAOnamedTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/MainBookDAO_HibernateCache_operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/MainBookDAO_Hibernate_operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/beans/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/dao/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/dao/cache/BookDAO_SessionFactoryCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/hibernate/dao/session/BookDAO_SessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/namedtemplate/BookDAO_namedTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/book.hibernate.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dao_namedtemplate_application_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate_application_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate_cache_application_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/MainBookDAOjdbcTemplate_aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/aspects/MyIntroductionAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/beans/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/annotations/MainBookDAOjdbcTemplate_aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/annotations/aspects/MyLoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/annotations/beans/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/annotations/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aop/annotations/dao/BookDAO_JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/DeclarativeTMOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/PlatformTMOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/TemplateTMOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/beans/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO_JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/service/platform/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/transaction/service/template/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aop_advice_application_context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context_annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/transaction_declarative_jdbctemplate_application_context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/transaction_jdbctemplate_application_context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/transaction_template_jdbctemplate_application_context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,37 +47,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/template/BookServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="36" column="108" lean-forward="true" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+            <state relative-caret-position="211">
+              <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,10 +59,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transaction/DeclarativeTMOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="-7">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/transaction_declarative_jdbctemplate_application_context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transaction/TemplateTMOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/transaction_template_jdbctemplate_application_context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transaction/PlatformTMOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/platform/BookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-391">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,26 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/di_annotation_factory.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/factory/JavaSpringConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/JavaBaseSpringConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Professor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/di_annotation/fullJava/SubjectRun.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/RequestBeanScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/SingletonBeanScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/SessionBeanScope.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/StudentDetail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/SubjectPreference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/Adress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springboot/beans/ClassDetail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/learning/springbootweb/SpringBootScopeApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aop/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aop/aspect/LoggingAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aop/service/HRService.java" />
         <option value="$PROJECT_DIR$/src/main/java/aop/aspect/SendMessage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/aop_application_context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/aop/SpringAOPInXMLCheck.java" />
@@ -149,12 +159,32 @@
         <option value="$PROJECT_DIR$/src/main/resources/hibernate_cache_application_context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/dao/hibernate/MainBookDAO_HibernateCache_operations.java" />
         <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO_JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/annotations/MainBookDAOjdbcTemplate_aspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/annotations/aspects/MyLoggingAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/advice/aspects/MyIntroductionAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_JdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/advice/MainBookDAOjdbcTemplate_aspect.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop_advice_application_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context_annotations.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new_Impl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO_JdbcTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/service/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/service/platform/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/PlatformTMOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/transaction_jdbctemplate_application_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/TemplateTMOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/service/template/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/transaction/DeclarativeTMOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/transaction_declarative_jdbctemplate_application_context.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/transaction_template_jdbctemplate_application_context.xml" />
       </list>
     </option>
   </component>
@@ -293,7 +323,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -301,63 +331,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlbased" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlbased" type="462c0819:PsiDirectoryNode" />
-              <item name="aspects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlbased" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbctemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -395,17 +370,17 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\my-git\poc_frameworks\spring\src\main\resources" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\transaction\dao" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\aop\advice" />
+      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\aop\annotations" />
       <recent name="D:\my-git\poc_frameworks\spring\src\main\java\dao\beans" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\dao\impl" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\dao" />
-      <recent name="D:\my-git\poc_frameworks\spring\src\main\java\learning\di_annotation\beans\qualified" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="aop.xmlbased" />
-      <recent name="aop.xmlbased.dao" />
-      <recent name="aop.xmlbased.beans" />
-      <recent name="dao.hibernate" />
-      <recent name="dao.hibernate.dao.cache" />
+      <recent name="transaction" />
+      <recent name="transaction.service" />
+      <recent name="transaction.service.template" />
+      <recent name="transaction.beans" />
+      <recent name="aop.advice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my-git\poc_frameworks\spring\src\main\resources" />
@@ -425,13 +400,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainBookDAOjdbcTemplate_aspect">
-    <configuration name="MainBookDAO_HibernateCache_operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dao.hibernate.MainBookDAO_HibernateCache_operations" />
+  <component name="RunManager" selected="Application.TemplateTMOperations">
+    <configuration name="MainBookDAOjdbcTemplate_aspect (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.annotations.MainBookDAOjdbcTemplate_aspect" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dao.hibernate.*" />
+          <option name="PATTERN" value="aop.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -439,25 +414,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBookDAO_Hibernate_operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dao.hibernate.MainBookDAO_Hibernate_operations" />
+    <configuration name="MainBookDAOjdbcTemplate_aspect (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aop.advice.MainBookDAOjdbcTemplate_aspect" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dao.hibernate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainBookDAOjdbcTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dao.MainBookDAOjdbcTemplate" />
-      <module name="spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dao.*" />
+          <option name="PATTERN" value="aop.advice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,12 +440,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBookDAOnamedTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dao.MainBookDAOnamedTemplate" />
+    <configuration name="PlatformTMOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transaction.PlatformTMOperations" />
       <module name="spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dao.*" />
+          <option name="PATTERN" value="transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateTMOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transaction.TemplateTMOperations" />
+      <module name="spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="transaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,11 +468,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateTMOperations" />
+        <item itemvalue="Application.PlatformTMOperations" />
+        <item itemvalue="Application.MainBookDAOjdbcTemplate_aspect (2)" />
+        <item itemvalue="Application.MainBookDAOjdbcTemplate_aspect (1)" />
         <item itemvalue="Application.MainBookDAOjdbcTemplate_aspect" />
-        <item itemvalue="Application.MainBookDAO_HibernateCache_operations" />
-        <item itemvalue="Application.MainBookDAO_Hibernate_operations" />
-        <item itemvalue="Application.MainBookDAOnamedTemplate" />
-        <item itemvalue="Application.MainBookDAOjdbcTemplate" />
       </list>
     </recent_temporary>
   </component>
@@ -547,7 +522,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26865673" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -555,8 +530,8 @@
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.35063437" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3091119" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3091119" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3298731" />
@@ -575,331 +550,19 @@
     <MESSAGE value="added spring xml configuration and annotations" />
     <option name="LAST_COMMIT_MESSAGE" value="added spring xml configuration and annotations" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new_Impl.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/lifecycle/beans/AllLifeCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/scope/CarScopeRun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/RequestBeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/PrototypeBeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/SingletonBeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/SessionBeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/StudentDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="109" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/SubjectPreference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="113" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="106" selection-start-line="22" selection-start-column="106" selection-end-line="22" selection-end-column="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/beans/ClassDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/learning/springbootweb/SpringBootScopeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/di_annotation_beans_qualified.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="82" selection-start-line="17" selection-start-column="82" selection-end-line="17" selection-end-column="82" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/service/HRService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/aspect/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/SpringAOPInXMLCheck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/aspect/SendMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ConstructorInjection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MainBookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="87" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_application_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_annotation_application_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MainBookDAOAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAO_Annotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/jdbctemplate/BookDAO_JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="72" selection-end-line="47" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repo_home/org/springframework/spring-jdbc/5.1.7.RELEASE/spring-jdbc-5.1.7.RELEASE.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/namedtemplate/BookDAO_namedTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_namedtemplate_application_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MainBookDAOjdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/beans/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/MainBookDAOnamedTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="9" selection-start-line="12" selection-start-column="8" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/dao/session/BookDAO_SessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/book.hibernate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate_application_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/beans/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/MainBookDAO_Hibernate_operations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="168" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="168" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/dao/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -921,34 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_jdbctemplate_application_context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/hibernate/dao/cache/BookDAO_SessionFactoryCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO_JdbcTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,13 +598,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/MainBookDAOjdbcTemplate_aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/annotations/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/annotations/dao/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="31" column="28" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/annotations/MainBookDAOjdbcTemplate_aspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/annotations/aspects/MyLoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/java-11-openjdk-11.0.3.7-1.windows.ojdkbuild.x86_64/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/aspects/MyIntroductionAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/autowiring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dependency_injection.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/SpringAOPInXMLCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -976,27 +742,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/aspects/MyLoggingAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/MainBookDAOjdbcTemplate_aspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="476">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop_advice_application_context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="36" column="108" lean-forward="true" selection-start-line="36" selection-start-column="108" selection-end-line="36" selection-end-column="108" />
+        <state relative-caret-position="493">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_JdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_annotation_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aop_dao_jdbctemplate_application_context_annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/advice/dao/BookDAO_new_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dao_jdbctemplate_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/impl/BookDAO_Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/annotations/dao/BookDAO_JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aop/xmlbased/dao/BookDAO_JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/learning/autowiring/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/dao/BookDAO_JdbcTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/beans/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/transaction_jdbctemplate_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="114" lean-forward="true" selection-start-line="19" selection-start-column="114" selection-end-line="19" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repo_home/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar!/org/springframework/transaction/support/TransactionCallbackWithoutResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repo_home/org/springframework/spring-tx/5.1.7.RELEASE/spring-tx-5.1.7.RELEASE.jar!/org/springframework/transaction/support/TransactionCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/platform/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/PlatformTMOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/TemplateTMOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/service/template/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/transaction/DeclarativeTMOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/transaction_declarative_jdbctemplate_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/transaction_template_jdbctemplate_application_context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
         </state>
       </provider>
     </entry>

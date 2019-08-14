@@ -1,7 +1,7 @@
-package aop.xmlbased;
+package aop.annotations;
 
-import aop.xmlbased.beans.Book;
-import aop.xmlbased.dao.BookDAO;
+import aop.annotations.beans.Book;
+import aop.annotations.dao.BookDAO;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,7 +10,7 @@ public class MainBookDAOjdbcTemplate_aspect {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ApplicationContext context=new ClassPathXmlApplicationContext("aop_dao_jdbctemplate_application_context.xml");
+		ApplicationContext context=new ClassPathXmlApplicationContext("aop_dao_jdbctemplate_application_context_annotations.xml");
 		BookDAO bookDAO=(BookDAO) context.getBean("bookDao");
 		int rows=bookDAO.addBook(new Book("Learning Modular Java Programming", 9781234L,"PacktPub publication",800,"explore the power of Modular programming","T.M.Jog"));
 	    if(rows>0)
