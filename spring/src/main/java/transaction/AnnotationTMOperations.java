@@ -5,9 +5,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import transaction.beans.Book;
 import transaction.service.BookService;
 
-public class DeclarativeTMOperations {
+public class AnnotationTMOperations {
     public static void main(String...args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("transaction_declarative_jdbctemplate_application_context.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("transaction_annotation_jdbctemplate_application_context.xml");
         BookService service = (BookService) context.getBean("bookService");
         // add book
         boolean added = service.addBook(new Book("Java EE 7 Developer Handbook", 97815674L, "PacktPub publication", 332,
